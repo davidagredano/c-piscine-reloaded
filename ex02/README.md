@@ -3,11 +3,11 @@
 ## Needed commands
 
 - find - search for files in a directory hierarchy
-- find -type c - File is of type c
-- find -name pattern - Base of file name (the path with the leading  directories removed) matches shell pattern pattern (see notes).
-- find expr1 expr2 - Two expressions in a row are taken to be joined with an implied -a; expr2 is not evaluated if expr1 is false.
-- find expr1 -o expr2 - Or; expr2 is not evaluated if expr1 is true.
-- find ( expr ) - Force precedence. Since parentheses are special to the shell, you will normally need to quote them. Many of the examples in this manual page use backslashes for this purpose:  `\(...\)` instead  of `(...)`.
+- find -type **c** - File is of type **c**.
+- find -name **pattern** - Base of file name (the path with the leading  directories removed) matches shell pattern **pattern** (see notes below).
+- find **expr1** **expr2** - Two expressions in a row are taken to be joined with an implied -a; **expr2** is not evaluated if expr1 is false.
+- find **expr1** -o **expr2** - Or; **expr2** is not evaluated if **expr1** is true.
+- find ( **expr** ) - Force precedence. Since parentheses are special to the shell, you will normally need to quote them. Many of the examples in this manual page use backslashes for this purpose:  `\(...\)` instead  of `(...)`.
 - find -delete - Delete files.
 
 ## Notes
