@@ -6,11 +6,9 @@
 /*   By: dagredan <dagredan@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/14 12:38:42 by dagredan          #+#    #+#             */
-/*   Updated: 2024/12/15 17:33:30 by dagredan         ###   ########.fr       */
+/*   Updated: 2024/12/15 21:37:39 by dagredan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_putchar(char c);
 
