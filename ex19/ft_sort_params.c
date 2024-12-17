@@ -6,7 +6,7 @@
 /*   By: dagredan <dagredan@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/14 12:38:42 by dagredan          #+#    #+#             */
-/*   Updated: 2024/12/15 22:32:55 by dagredan         ###   ########.fr       */
+/*   Updated: 2024/12/17 22:26:00 by dagredan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,6 +72,4 @@ int	main(int argc, char **argv)
 		ft_sort_array(argc - 1, &argv[1]);
 		ft_print_array(argc - 1, &argv[1]);
 	}
-	else
-		ft_putstr("Error: Missing arguments\n");
 }
