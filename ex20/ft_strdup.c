@@ -6,7 +6,7 @@
 /*   By: dagredan <dagredan@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 10:22:49 by dagredan          #+#    #+#             */
-/*   Updated: 2024/12/16 10:59:52 by dagredan         ###   ########.fr       */
+/*   Updated: 2024/12/17 21:03:22 by dagredan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ char	*ft_strdup(char *src)
 	dest = (char *) malloc((ft_strlen(src) + 1) * sizeof(char));
 	if (!dest)
 		return (NULL);
+	i = 0;
 	while (src[i] != '\0')
 	{
 		dest[i] = src[i];

@@ -6,7 +6,7 @@
 /*   By: dagredan <dagredan@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 18:39:32 by dagredan          #+#    #+#             */
-/*   Updated: 2024/12/16 18:41:00 by dagredan         ###   ########.fr       */
+/*   Updated: 2024/12/17 22:30:22 by dagredan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@ void	ft_foreach(int *tab, int length, void (*f)(int))
 {
 	int	i;
 
+	i = 0;
 	while (i < length)
 	{
 		f(tab[i]);
